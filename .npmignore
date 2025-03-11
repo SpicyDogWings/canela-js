@@ -1,0 +1,7 @@
+src/
+.vscode/
+.idea/
+node_modules/
+.gitignore
+.git/
+vite.config.js

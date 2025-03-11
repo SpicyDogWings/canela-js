@@ -1,14 +1,47 @@
 {
-  "name": "canelajs",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@unanjfdev/canela-js",
+  "version": "1.0.1",
+  "description": "A collection of customizable web components built with vanilla JavaScript",
   "type": "module",
+  "main": "dist/index.es.js",
+  "module": "dist/index.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "build-dev": "vite build --watch --mode development",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "web-components",
+    "vanilla-js",
+    "ui-components",
+    "datepicker",
+    "select",
+    "tooltip"
+  ],
+  "author": "SpicyDogWings",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spicydogwings/canela-js"
   },
   "devDependencies": {
     "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "color2k": "^2.0.3",
+    "lucide": "^0.479.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
