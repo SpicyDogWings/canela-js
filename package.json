@@ -1,6 +1,6 @@
 {
   "name": "@unanjfdev/canela-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A collection of customizable web components built with vanilla JavaScript",
   "type": "module",
   "main": "dist/index.es.js",
@@ -8,7 +8,8 @@
   "exports": {
     ".": {
       "import": "./dist/index.es.js"
-    }
+    },
+    "./styles": "./dist/styles.css"
   },
   "files": [
     "dist"
@@ -38,6 +39,7 @@
     "vite": "^6.1.0"
   },
   "dependencies": {
+    "@unanjfdev/canela-js": "^1.0.2",
     "color2k": "^2.0.3",
     "lucide": "^0.479.0"
   },
