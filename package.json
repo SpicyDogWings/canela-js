@@ -1,6 +1,6 @@
 {
   "name": "@unanjfdev/canela-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A collection of customizable web components built with vanilla JavaScript",
   "type": "module",
   "main": "dist/index.es.js",
